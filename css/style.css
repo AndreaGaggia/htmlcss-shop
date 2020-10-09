@@ -15,4 +15,31 @@ body {
 .product {
   display: inline-block;
   width: 300px;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px;
+}
+
+.interesting {
+  background-color: green;
+}
+
+.small {
+  background-color: red;
+}
+
+i {
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
