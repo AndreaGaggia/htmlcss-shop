@@ -4,12 +4,9 @@
   padding: 0;
 }
 
-body {
-  background-color: cyan;
-}
-
 .products_row {
   text-align: center;
+  margin: 30px 0;
 }
 
 .product {
@@ -33,7 +30,8 @@ body {
   background-color: red;
 }
 
-i {
+i.fa-heart {
+  display: none;
   color: red;
   position: absolute;
   bottom: 0;
@@ -42,4 +40,9 @@ i {
   text-align: center;
   padding-bottom: 10px;
   font-size: 20px;
+}
+
+.product:hover i {
+  display: inline-block;
+  cursor: pointer;
 }
